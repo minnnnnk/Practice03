@@ -8,17 +8,17 @@ public class Ex10 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("숫자를 입력하세요");
-		System.out.println("숫자: ");
-		int num1 = sc.nextInt();
-		System.out.println("숫자: ");
-		int num2 = sc.nextInt();
-		System.out.println("숫자: ");
-		int num3 = sc.nextInt();
-		System.out.println("숫자: ");
-		int num4 = sc.nextInt();
-		System.out.println("숫자: ");
-		int num5 = sc.nextInt();
-		
+		int max = 0;
+				
+		for (int i =1; i<=5; i++) {
+			System.out.print("숫자: ");
+			int num = sc.nextInt();
+			if(num>=max) {
+				max=num;
+			}
+			
+		}
+		System.out.println("최대값은"+max+ "입니다.");
 		sc.close();
 	}
 
