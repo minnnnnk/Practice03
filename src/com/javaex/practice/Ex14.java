@@ -11,8 +11,9 @@ public class Ex14 {
 		int num =sc.nextInt();
 		int sum =0;
 		
-		for (int i= 0; i<=num; i++) {
-			System.out.print((sum= sum+i)+"+");;
+		for (int i= 1; i<=num; i++) {
+			sum = sum +i;
+			System.out.print(i+"+");;
 		}
 		System.out.println("");
 		System.out.println("합계:" +sum);

@@ -12,12 +12,14 @@ public class Ex16 {
 		int sum = 0;
 		for (int i = 5; i<=num; i+=5 ) {
 			
-			
 			count++;
-			
-		System.out.println("5의 배수의 개수: "+count);
-		}
+
+
+			sum = sum+i;
 		
+		}
+		System.out.println("5의 배수의 개수: "+count);
+		System.out.println("5의 배수의합: "+sum);
 		sc.close();
 	}
 
