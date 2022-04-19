@@ -13,7 +13,12 @@ public class Ex14 {
 		
 		for (int i= 1; i<=num; i++) {
 			sum = sum +i;
-			System.out.print(i+"+");;
+			
+			if (i<num) {
+				System.out.print(i+"+");
+			} else {
+				System.out.print(i);
+			}
 		}
 		System.out.println("");
 		System.out.println("합계:" +sum);
