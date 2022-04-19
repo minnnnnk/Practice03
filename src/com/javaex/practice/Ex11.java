@@ -9,19 +9,24 @@ public class Ex11 {
 		int num = sc.nextInt();
 		int sum = 0;
 		
-	
-		for (int i =1; i<=num ; i++) {
-			if (i%2!=0) {
-				sum=sum+i;
-			} 
+		if (num%2!=0) {
+			
+			for (int i =0; i<=num ; i++) {
+				if (i%2!=0) {
+					sum=sum+i;
+				}
+			}
+		} else {
+			
+			for (int i =0; i<=num ; i++) {
+				if (i%2==0) {
+					sum=sum+i;
+				}
+			}
 		}
-		
-		
 		System.out.println("결과값은: "+   sum);
 		
-	
 		sc.close();
-			}
-			
-		}
-
+		
+	}
+}
