@@ -19,11 +19,9 @@ public class Ex20 {
 			num = sc.nextInt();
 			if (num<num1) {
 				System.out.println("더 높게"); 
-				
 			} else if(num>num1) {
 				System.out.println("더 낮게");
-				
-			} else {
+			  } else {
 				System.out.println("맞았습니다"); 
 				System.out.print("게임을 종료하시겠습니까?(y/n) >>");
 				String choice = sc.next();
@@ -35,15 +33,8 @@ public class Ex20 {
 					break;
 				} else {
 					continue;
-				}
-			}
-			
-			
-			
-		
-		
-	
-		
+				  }
+			  }
 		
 		
 		}
